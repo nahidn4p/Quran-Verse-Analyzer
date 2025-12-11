@@ -20,9 +20,9 @@ An intelligent search tool that uses AI embeddings to find relevant Quran verses
    ```bash
    pip install -r requirements.txt
    ```
-   #Note: For CPU-only PyTorch (smaller download), use:
-   #pip install torch --index-url https://download.pytorch.org/whl/cpu
-   #The code is configured to use CPU only regardless of PyTorch installation.
+   Note: For CPU-only PyTorch (smaller download), use:
+   - pip install torch --index-url https://download.pytorch.org/whl/cpu
+   - The code is configured to use CPU only regardless of PyTorch installation.
 
 
    Note: The first run will download the sentence transformer model (~90MB), which may take a few minutes.
